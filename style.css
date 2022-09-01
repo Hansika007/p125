@@ -1,0 +1,42 @@
+.note
+{
+    font-size: 15px;
+    color: black;
+}
+
+.heading
+{
+    font-size: 30px;
+    width: 100%;
+    margin: 0px;
+    color: yellow;
+    background-color: orangered;
+    box-shadow: 5px 5px 5px grey;
+    font-family: 'Rubik Dirt', cursive;
+
+}
+
+.copy_right_footer
+{
+    position: fixed;
+    color: darkblue;
+    bottom: 0;
+    width: 100%;
+    background-color: deeppink;
+    line-height: 2;
+    text-align: center;
+}
+
+canvas
+{
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px darkgray;
+    border-color: blueviolet;
+    border-width: 5px;
+}
+
+@keyframes example 
+{
+    from {box-shadow: 1px 1px 38px red;}
+    to {box-shadow: 1px 1px 38px lightpink;}
+}
